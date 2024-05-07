@@ -19,7 +19,7 @@ CREATE TABLE Account (
     CreateDate      DATETIME
 )
 
-CREATE TABLE "Group" (
+CREATE TABLE `Group` (
   GroupID           INT PRIMARY KEY AUTO_INCREMENT,
   GroupName         VARCHAR(50) NOT NULL,
   CreatorID         INT,
